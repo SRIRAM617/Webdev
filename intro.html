@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML form</title>
+</head>
+<body>
+    <form action="m.php">
+        <center >
+        <label for="name">Name</label>
+        <div>
+        <input type="text" name="myName" id="name">
+        </div>
+        <label for="id">Id</label>
+        <div>
+        <input type="text" name="myText" id="id">
+        </div>
+        <label for="pass">Password</label>
+        <div>
+            <input type="password" name="myPassword" id="pass">
+        </div>
+        <label for="email">Email</label>
+        <div>
+        <input type="email" name="myEmail" id="email">
+        </div>
+        <div>
+            <label for="check">Are you eligible?</label>
+            <input type="checkbox"  name="myCheckboxes" id="check">
+        </div>
+        <div>
+            <label for="check1">Are you 18?</label>
+            <input type="checkbox"  name="myCheckboxes1" id="check1">
+        </div>
+        <div>
+          Gender: Male<input type="radio" name="myRadio" selected > 
+          Female<input type="radio" name="myRadio" >
+        </div>
+        <div>Write about yourself<br><textarea name="myText" cols="30" rows="10"></textarea></div>
+        <div>
+            <label for="Car">Select Car</label>
+            <select name="myCar" id="Car">
+                <option value="ind">Indica</option>
+                <option value="swf">Swift</option>
+            </select>
+        </div>
+        <div>
+            <label for="dt">Date</label>
+            <input type="date" name="myDate" id="dt">
+        </div>
+        <div>
+            <input type="submit" value="Submit Now">
+        </div>
+        <div>
+            <input type="reset" value="Reset the form">
+        </div>
+    </center>
+
+
+
+   
+
+
+    </form>
+</body>
+</html>
